@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA4D72A6E27C07262C24F0A6 /* libPods-testMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB603DF6A281556D2BF51561 /* libPods-testMasonry.a */; };
+		F1048E571E03D91300A6C6B5 /* tabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1048E561E03D91300A6C6B5 /* tabBarViewController.m */; };
+		F1048E5A1E03DC4200A6C6B5 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1048E591E03DC4200A6C6B5 /* MessageViewController.m */; };
+		F1048E661E03DD9900A6C6B5 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1048E651E03DD9900A6C6B5 /* ContactViewController.m */; };
+		F1048E691E03DDA200A6C6B5 /* TrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1048E681E03DDA200A6C6B5 /* TrendViewController.m */; };
 		F123BAF01DCC7E2200CE1483 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F123BAEF1DCC7E2200CE1483 /* main.m */; };
 		F123BAF31DCC7E2200CE1483 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F123BAF21DCC7E2200CE1483 /* AppDelegate.m */; };
 		F123BAF61DCC7E2200CE1483 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F123BAF51DCC7E2200CE1483 /* ViewController.m */; };
@@ -14,9 +19,29 @@
 		F123BAFC1DCC7E2200CE1483 /* testMasonry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F123BAFA1DCC7E2200CE1483 /* testMasonry.xcdatamodeld */; };
 		F123BAFE1DCC7E2200CE1483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F123BAFD1DCC7E2200CE1483 /* Assets.xcassets */; };
 		F123BB011DCC7E2200CE1483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F123BAFF1DCC7E2200CE1483 /* LaunchScreen.storyboard */; };
+		F157D2291E077CFF00BE430C /* ContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F157D2281E077CFF00BE430C /* ContactTableViewCell.m */; };
+		F1F0268E1E0B5B5000E44380 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F0268D1E0B5B5000E44380 /* FriendViewController.m */; };
+		F1F026991E0B5C8100E44380 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F026901E0B5C8100E44380 /* Message.m */; };
+		F1F0269A1E0B5C8100E44380 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1F026911E0B5C8100E44380 /* messages.plist */; };
+		F1F0269B1E0B5C8100E44380 /* MessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F026931E0B5C8100E44380 /* MessageTableViewCell.m */; };
+		F1F0269C1E0B5C8100E44380 /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1F026941E0B5C8100E44380 /* MessageTableViewCell.xib */; };
+		F1F0269D1E0B5C8100E44380 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F026961E0B5C8100E44380 /* Model.m */; };
+		F1F0269E1E0B5C8100E44380 /* ScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F026981E0B5C8100E44380 /* ScrollView.m */; };
+		F1F026A11E0B73CC00E44380 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F026A31E0B73CC00E44380 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		543214829161C83B87C8B443 /* Pods-testMasonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testMasonry/Pods-testMasonry.debug.xcconfig"; sourceTree = "<group>"; };
+		713AA11C9999D0D73F78E638 /* Pods-testMasonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testMasonry.release.xcconfig"; path = "Pods/Target Support Files/Pods-testMasonry/Pods-testMasonry.release.xcconfig"; sourceTree = "<group>"; };
+		DB603DF6A281556D2BF51561 /* libPods-testMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testMasonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1048E551E03D91300A6C6B5 /* tabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabBarViewController.h; sourceTree = "<group>"; };
+		F1048E561E03D91300A6C6B5 /* tabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabBarViewController.m; sourceTree = "<group>"; };
+		F1048E581E03DC4200A6C6B5 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		F1048E591E03DC4200A6C6B5 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		F1048E641E03DD9900A6C6B5 /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		F1048E651E03DD9900A6C6B5 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		F1048E671E03DDA200A6C6B5 /* TrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrendViewController.h; sourceTree = "<group>"; };
+		F1048E681E03DDA200A6C6B5 /* TrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrendViewController.m; sourceTree = "<group>"; };
 		F123BAEB1DCC7E2200CE1483 /* testMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F123BAEF1DCC7E2200CE1483 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F123BAF11DCC7E2200CE1483 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +53,22 @@
 		F123BAFD1DCC7E2200CE1483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F123BB001DCC7E2200CE1483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F123BB021DCC7E2200CE1483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F123BB0B1DCC857900CE1483 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F157D2271E077CFF00BE430C /* ContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTableViewCell.h; sourceTree = "<group>"; };
+		F157D2281E077CFF00BE430C /* ContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTableViewCell.m; sourceTree = "<group>"; };
+		F1F0268C1E0B5B5000E44380 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		F1F0268D1E0B5B5000E44380 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		F1F0268F1E0B5C8100E44380 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		F1F026901E0B5C8100E44380 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		F1F026911E0B5C8100E44380 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		F1F026921E0B5C8100E44380 /* MessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewCell.h; sourceTree = "<group>"; };
+		F1F026931E0B5C8100E44380 /* MessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewCell.m; sourceTree = "<group>"; };
+		F1F026941E0B5C8100E44380 /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		F1F026951E0B5C8100E44380 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		F1F026961E0B5C8100E44380 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		F1F026971E0B5C8100E44380 /* ScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollView.h; sourceTree = "<group>"; };
+		F1F026981E0B5C8100E44380 /* ScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollView.m; sourceTree = "<group>"; };
+		F1F026A21E0B73CC00E44380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +76,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA4D72A6E27C07262C24F0A6 /* libPods-testMasonry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C76E94437060BCCB895370A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				543214829161C83B87C8B443 /* Pods-testMasonry.debug.xcconfig */,
+				713AA11C9999D0D73F78E638 /* Pods-testMasonry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1048E611E03DD5700A6C6B5 /* Trend */ = {
+			isa = PBXGroup;
+			children = (
+				F1048E671E03DDA200A6C6B5 /* TrendViewController.h */,
+				F1048E681E03DDA200A6C6B5 /* TrendViewController.m */,
+				F1F026A31E0B73CC00E44380 /* Storyboard.storyboard */,
+				F1F0268C1E0B5B5000E44380 /* FriendViewController.h */,
+				F1F0268D1E0B5B5000E44380 /* FriendViewController.m */,
+				F1F0268F1E0B5C8100E44380 /* Message.h */,
+				F1F026901E0B5C8100E44380 /* Message.m */,
+				F1F026911E0B5C8100E44380 /* messages.plist */,
+				F1F026921E0B5C8100E44380 /* MessageTableViewCell.h */,
+				F1F026931E0B5C8100E44380 /* MessageTableViewCell.m */,
+				F1F026941E0B5C8100E44380 /* MessageTableViewCell.xib */,
+				F1F026951E0B5C8100E44380 /* Model.h */,
+				F1F026961E0B5C8100E44380 /* Model.m */,
+				F1F026971E0B5C8100E44380 /* ScrollView.h */,
+				F1F026981E0B5C8100E44380 /* ScrollView.m */,
+			);
+			name = Trend;
+			sourceTree = "<group>";
+		};
+		F1048E621E03DD6800A6C6B5 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				F1048E641E03DD9900A6C6B5 /* ContactViewController.h */,
+				F1048E651E03DD9900A6C6B5 /* ContactViewController.m */,
+				F157D2271E077CFF00BE430C /* ContactTableViewCell.h */,
+				F157D2281E077CFF00BE430C /* ContactTableViewCell.m */,
+			);
+			name = Contact;
+			sourceTree = "<group>";
+		};
+		F1048E631E03DD6D00A6C6B5 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				F1048E581E03DC4200A6C6B5 /* MessageViewController.h */,
+				F1048E591E03DC4200A6C6B5 /* MessageViewController.m */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
 		F123BAE21DCC7E2200CE1483 = {
 			isa = PBXGroup;
 			children = (
 				F123BAED1DCC7E2200CE1483 /* testMasonry */,
 				F123BAEC1DCC7E2200CE1483 /* Products */,
+				0C76E94437060BCCB895370A /* Pods */,
+				FE6940C95D9FA3B52371675E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,9 +155,14 @@
 		F123BAED1DCC7E2200CE1483 /* testMasonry */ = {
 			isa = PBXGroup;
 			children = (
+				F1048E631E03DD6D00A6C6B5 /* Message */,
+				F1048E621E03DD6800A6C6B5 /* Contact */,
+				F1048E611E03DD5700A6C6B5 /* Trend */,
 				F123BAF11DCC7E2200CE1483 /* AppDelegate.h */,
 				F123BAF21DCC7E2200CE1483 /* AppDelegate.m */,
 				F123BAF41DCC7E2200CE1483 /* ViewController.h */,
+				F1048E551E03D91300A6C6B5 /* tabBarViewController.h */,
+				F1048E561E03D91300A6C6B5 /* tabBarViewController.m */,
 				F123BAF51DCC7E2200CE1483 /* ViewController.m */,
 				F123BAF71DCC7E2200CE1483 /* Main.storyboard */,
 				F123BAFD1DCC7E2200CE1483 /* Assets.xcassets */,
@@ -70,6 +170,7 @@
 				F123BB021DCC7E2200CE1483 /* Info.plist */,
 				F123BAFA1DCC7E2200CE1483 /* testMasonry.xcdatamodeld */,
 				F123BAEE1DCC7E2200CE1483 /* Supporting Files */,
+				F123BB0B1DCC857900CE1483 /* PrefixHeader.pch */,
 			);
 			path = testMasonry;
 			sourceTree = "<group>";
@@ -82,6 +183,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE6940C95D9FA3B52371675E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB603DF6A281556D2BF51561 /* libPods-testMasonry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F123BB051DCC7E2200CE1483 /* Build configuration list for PBXNativeTarget "testMasonry" */;
 			buildPhases = (
+				B7A507F3F05672110182444D /* [CP] Check Pods Manifest.lock */,
 				F123BAE71DCC7E2200CE1483 /* Sources */,
 				F123BAE81DCC7E2200CE1483 /* Frameworks */,
 				F123BAE91DCC7E2200CE1483 /* Resources */,
+				FA5C4E5B8576309D5A5A11E0 /* [CP] Embed Pods Frameworks */,
+				221C943A001095F12474B56A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -113,6 +225,7 @@
 				TargetAttributes = {
 					F123BAEA1DCC7E2200CE1483 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = QX43TY3YXT;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -141,22 +254,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				F123BB011DCC7E2200CE1483 /* LaunchScreen.storyboard in Resources */,
+				F1F026A11E0B73CC00E44380 /* Storyboard.storyboard in Resources */,
 				F123BAFE1DCC7E2200CE1483 /* Assets.xcassets in Resources */,
+				F1F0269A1E0B5C8100E44380 /* messages.plist in Resources */,
 				F123BAF91DCC7E2200CE1483 /* Main.storyboard in Resources */,
+				F1F0269C1E0B5C8100E44380 /* MessageTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		221C943A001095F12474B56A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testMasonry/Pods-testMasonry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A507F3F05672110182444D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA5C4E5B8576309D5A5A11E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testMasonry/Pods-testMasonry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F123BAE71DCC7E2200CE1483 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F0269E1E0B5C8100E44380 /* ScrollView.m in Sources */,
+				F1048E661E03DD9900A6C6B5 /* ContactViewController.m in Sources */,
+				F1048E5A1E03DC4200A6C6B5 /* MessageViewController.m in Sources */,
+				F1F026991E0B5C8100E44380 /* Message.m in Sources */,
 				F123BAF61DCC7E2200CE1483 /* ViewController.m in Sources */,
 				F123BAFC1DCC7E2200CE1483 /* testMasonry.xcdatamodeld in Sources */,
+				F1048E691E03DDA200A6C6B5 /* TrendViewController.m in Sources */,
 				F123BAF31DCC7E2200CE1483 /* AppDelegate.m in Sources */,
 				F123BAF01DCC7E2200CE1483 /* main.m in Sources */,
+				F1F0269D1E0B5C8100E44380 /* Model.m in Sources */,
+				F1F0268E1E0B5B5000E44380 /* FriendViewController.m in Sources */,
+				F1048E571E03D91300A6C6B5 /* tabBarViewController.m in Sources */,
+				F1F0269B1E0B5C8100E44380 /* MessageTableViewCell.m in Sources */,
+				F157D2291E077CFF00BE430C /* ContactTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +351,14 @@
 				F123BB001DCC7E2200CE1483 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F1F026A31E0B73CC00E44380 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F026A21E0B73CC00E44380 /* Base */,
+			);
+			name = Storyboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -274,9 +456,13 @@
 		};
 		F123BB061DCC7E2200CE1483 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543214829161C83B87C8B443 /* Pods-testMasonry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QX43TY3YXT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = testMasonry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhufeng.testMasonry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,9 +471,13 @@
 		};
 		F123BB071DCC7E2200CE1483 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713AA11C9999D0D73F78E638 /* Pods-testMasonry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QX43TY3YXT;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = testMasonry/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhufeng.testMasonry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -313,6 +503,7 @@
 				F123BB071DCC7E2200CE1483 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

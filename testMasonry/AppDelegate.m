@@ -7,16 +7,26 @@
 //
 
 #import "AppDelegate.h"
-
+#import "tabBarViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
+- (UIWindow *)window {
+    if (!_window) {
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        [_window makeKeyAndVisible];
+    }
+    return _window;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor cyanColor]];
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    tabBarViewController *tab = [story instantiateViewControllerWithIdentifier:@"storyBar"];
+    self.window.rootViewController = tab;
     return YES;
 }
 

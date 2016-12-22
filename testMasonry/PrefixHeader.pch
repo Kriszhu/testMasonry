@@ -1,0 +1,14 @@
+//
+//  PreficHeader.pch
+//  testMasonry
+//
+//  Created by wanrun on 2016/11/4.
+//  Copyright © 2016年 wanrun. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+#import "Masonry.h"
+
+#endif /* PrefixHeader_h */
